@@ -14,7 +14,7 @@ function App(): JSX.Element {
         <div>
             <h1>Tavon Website</h1>
             <img
-                src="https://www.google.com/search?q=lebron+james&tbm=isch&ved=2ahUKEwjF4Jem8aX6AhWbtXIEHQx1DxcQ2-cCegQIABAA#imgrc=lSggYxaBapjIUM"
+                src="https://www.google.com/search?q=lebron+jamestbm=ischved=2ahUKEwjF4Jem8aX6AhWbtXIEHQx1DxcQ2-cCegQIABAA#imgrc=lSggYxaBapjIUM"
                 alt="Photo of Lebron James"
             />
             <ol>
@@ -47,3 +47,4 @@ function App(): JSX.Element {
         </div>
     );
 }
+export default App;
