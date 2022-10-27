@@ -27,4 +27,5 @@ export function ChangeType(): JSX.Element {
             </div>
         </div>
     );
+    return <div>Change Type</div>;
 }
