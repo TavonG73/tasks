@@ -8,10 +8,14 @@ import { StartAttempt } from "./components/StartAttempt";
 import { TwoDice } from "./components/TwoDice";
 import { CycleHoliday } from "./components/CycleHoliday";
 import { Counter } from "./components/Counter";
+import { DoubleHalf } from "./bad-components/DoubleHalf";
+import { ColoredBox } from "./bad-components/ColoredBox";
+import { ShoveBox } from "./bad-components/ShoveBox";
+import { ChooseTeam } from "./bad-components/ChooseTeam";
 
 function App(): JSX.Element {
     return (
-        <div>
+    <div>
             <h1>Tavon Website</h1>
             <img
                 src="https://www.google.com/search?q=lebron+jamestbm=ischved=2ahUKEwjF4Jem8aX6AhWbtXIEHQx1DxcQ2-cCegQIABAA#imgrc=lSggYxaBapjIUM"
@@ -44,7 +48,33 @@ function App(): JSX.Element {
                     automatically reload.
                 </p>
             </div>
+=======
+        <div className="App">
+            <header className="App-header">
+                UD CISC275 with React Hooks and TypeScript
+            </header>
+            <hr></hr>
+            {/* <DoubleHalf></DoubleHalf> */}
+            <hr></hr>
+            <ChooseTeam></ChooseTeam>
+            <hr></hr>
+            <ColoredBox></ColoredBox>
+            <hr></hr>
+            <ShoveBox></ShoveBox>
+            <hr></hr>
+            <Counter></Counter>
+            <hr />
+            <RevealAnswer></RevealAnswer>
+            <hr />
+            <StartAttempt></StartAttempt>
+            <hr />
+            <TwoDice></TwoDice>
+            <hr />
+            <ChangeType></ChangeType>
+            <hr />
+            <CycleHoliday></CycleHoliday>
+upstream/task-components
         </div>
     );
-}
+
 export default App;
