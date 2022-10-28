@@ -16,10 +16,8 @@ import { GiveAttempts } from "./form-components/GiveAttempts";
 import { EditMode } from "./form-components/EditMode";
 import { MultipleChoiceQuestion } from "./form-components/MultipleChoiceQuestion";
 import { ChangeColor } from "./form-components/ChangeColor";
-
 function App(): JSX.Element {
     return (
-<<<<<<< HEAD
         <div>
             <h1>Tavon Website</h1>
             <img
@@ -52,6 +50,19 @@ function App(): JSX.Element {
                     Edit <code>src/App.tsx</code> and save. This page will
                     automatically reload.
                     <hr></hr>
+                    <CheckAnswer expectedAnswer="42"></CheckAnswer>
+                    <hr></hr>
+                    <GiveAttempts></GiveAttempts>
+                    <hr></hr>
+                    <EditMode></EditMode>
+                    <hr></hr>
+                    <ChangeColor></ChangeColor>
+                    <hr></hr>
+                    <MultipleChoiceQuestion
+                        options={["a", "b", "c"]}
+                        expectedAnswer="b"
+                    ></MultipleChoiceQuestion>
+                    <hr></hr>
                     {/* <DoubleHalf></DoubleHalf> */}
                     <hr></hr>
                     <ChooseTeam></ChooseTeam>
@@ -73,45 +84,6 @@ function App(): JSX.Element {
                     <CycleHoliday></CycleHoliday>
                 </p>
             </div>
-=======
-        <div className="App">
-            <header className="App-header">
-                UD CISC275 with React Hooks and TypeScript
-            </header>
-            <hr></hr>
-            <CheckAnswer expectedAnswer="42"></CheckAnswer>
-            <hr></hr>
-            <GiveAttempts></GiveAttempts>
-            <hr></hr>
-            <EditMode></EditMode>
-            <hr></hr>
-            <ChangeColor></ChangeColor>
-            <hr></hr>
-            <MultipleChoiceQuestion
-                options={["a", "b", "c"]}
-                expectedAnswer="b"
-            ></MultipleChoiceQuestion>
-            <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
-            <hr></hr>
-            <ChooseTeam></ChooseTeam>
-            <hr></hr>
-            <ColoredBox></ColoredBox>
-            <hr></hr>
-            <ShoveBox></ShoveBox>
-            <hr></hr>
-            <Counter></Counter>
-            <hr />
-            <RevealAnswer></RevealAnswer>
-            <hr />
-            <StartAttempt></StartAttempt>
-            <hr />
-            <TwoDice></TwoDice>
-            <hr />
-            <ChangeType></ChangeType>
-            <hr />
-            <CycleHoliday></CycleHoliday>
->>>>>>> upstream/task-forms
         </div>
     );
 }
