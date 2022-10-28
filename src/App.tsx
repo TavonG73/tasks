@@ -46,7 +46,6 @@ function App(): JSX.Element {
                     Edit <code>src/App.tsx</code> and save. This page will
                     automatically reload.
                     <hr></hr>
-
                     {/* <DoubleHalf></DoubleHalf> */}
                     <hr></hr>
                     <ChooseTeam></ChooseTeam>
