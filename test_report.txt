@@ -1,6 +1,6 @@
 
 > react-typescript-starter@0.1.0 test
-> react-scripts test
+> react-scripts test --coverage
 
 Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
@@ -159,5 +159,5 @@ All files                    |   97.37 |       98 |   99.23 |   97.27 |
 Test Suites: 20 passed, 20 total
 Tests:       134 passed, 134 total
 Snapshots:   0 total
-Time:        15.325 s
+Time:        11.659 s
 Ran all test suites.
